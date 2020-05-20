@@ -40,7 +40,7 @@ Argument      |Description
 ```--rt```     |    renumbred trait (in blup90 solutions file)
 ```--re```     |    renumbred effect (in blup90 solutions file)
 ```--h2```     |    heritability (0<h2<1) 
-```--va```     |   Additive variance
+```--va```     |   additive variance
 ```--c```     |   fraction of genetic variance not explained by markers
 ```--o```     |     output path
 ## References
