@@ -43,10 +43,11 @@ Argument      |Description
 ```--va```     |   additive variance
 ```--c```     |   fraction of genetic variance not explained by markers
 ```--o```     |     output path
+
+
 ## References
-
-
 ###### Garrick, D.J., Taylor, J.F., and Fernando, R.L. 2009. Deregressing estimated breeding values and weighting information for genomic regression analyses. Genetics Selection Evolution 41(1): 55.
 ###### VanRaden, P., Van Tassell, C., Wiggans, G., Sonstegard, T., Schnabel, R., Taylor, J., and Schenkel, F. 2009. Invited review: Reliability of genomic predictions for North American Holstein bulls. Journal of dairy science 92(1): 16-24.
-
+## For downloading this modules please go to releases section
+https://github.com/Siavash-cloud/DEBV_calculator/releases/edit/1.00
 
