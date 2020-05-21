@@ -49,5 +49,5 @@ Argument      |Description
 ###### Garrick, D.J., Taylor, J.F., and Fernando, R.L. 2009. Deregressing estimated breeding values and weighting information for genomic regression analyses. Genetics Selection Evolution 41(1): 55.
 ###### VanRaden, P., Van Tassell, C., Wiggans, G., Sonstegard, T., Schnabel, R., Taylor, J., and Schenkel, F. 2009. Invited review: Reliability of genomic predictions for North American Holstein bulls. Journal of dairy science 92(1): 16-24.
 ## For downloading this module please go to releases section or:
-###### https://github.com/Siavash-cloud/DEBV_calculator/releases/download/1.00/DEBV_calculator
+###### https://github.com/Siavash-cloud/DEBV_calculator/releases/download/1.00/DEBV-calculator
 ###### https://github.com/Siavash-cloud/DEBV_calculator/releases/download/1.00/DEBV_calculator_blupf90
