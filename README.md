@@ -6,11 +6,15 @@
 ## 1. A short description
 * The DEBV_calculator is a module for deregressing estimated breeding values (DEBV) based on two former popular methods (Garrick et al. 2009; VanRaden et al. 2009) in Linux. The source codes of this module were written in python (by employing pandas, numpy, argparse, time, and sys libraries), and bundled using pyinstaller (https://www.pyinstaller.org/).
 
-## For downloading this modules use 'wget' command for these links:
+## 1.2 For downloading this modules use 'wget' command for these links:
 ###### https://github.com/Siavash-cloud/DEBV_calculator/releases/download/1.00/DEBV_calculator
 ###### https://github.com/Siavash-cloud/DEBV_calculator/releases/download/1.00/DEBV_calculator_blupf90
-## For downloading this example datasets use:
-###### git clone 
+###### then run:
+###### chmod 775 DEBV_calculator
+###### chmod 775 DEBV_calculator_blupf90
+
+## For downloading this example datasets use this command in your Linux terminal:
+###### git clone https://github.com/Siavash-cloud/DEBV_calculator.git
 ######
 ## 2. Inputs and usage
 ### 2.1. Type 1 (our defined format using DEBV_calculator)
@@ -24,7 +28,7 @@ The input header must be named exactly like this:
 | 7 | 4       | 5      |1.79       |-0.79   |-2.00   |-1.39    |0.69        |0.50       |0.45            |0.73            |
 
 #### 2.1.2 Usage
-"./DEBV_calculator --i /Data.txt --h2 0.25 --c 0.5 --o DEBV.txt"
+"./DEBV_calculator --i Data.txt --h2 0.25 --c 0.5 --o DEBV.txt"
 
 Argument      |Description
 ------------- |----------------
@@ -37,7 +41,7 @@ Argument      |Description
 In the first step, you must Remove blupf90 solutions file header using: "sed '1d' solutions > solutions2"
 ##### Note: The standard errors must have been included in your blupf90 solutions through "OPTION sol se" command in blupf90.
 ##### Then, run this command:
-"./DEBV_calculator_blupf90 --s solutions --op Ped.txt --rp renadd03.ped --rt 1 --re 3 --h2 0.25 --va 18 --c 0.5 --o DEBV.txt"
+"./DEBV_calculator_blupf90 --s solutions2 --op Original-ped.txt --rp renadd03.ped --rt 1 --re 3 --h2 0.25 --va 18 --c 0.5 --o DEBV.txt"
 Argument      |Description
 ------------- |----------------
 ```--s```     |     solutions path
