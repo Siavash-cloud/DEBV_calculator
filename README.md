@@ -38,7 +38,7 @@ Argument      |Description
 ```--o```     |     output path
 ### 2.2. Type 2 (using  blupf90 outputs and DEBV_calculator_blupf90)
 #### 2.2.1. Input and usage
-In the first step, you must Remove blupf90 solutions file header using: "sed '1d' solutions > solutions2"
+In the first step, you must remove the header of blupf90 solutions file using: "sed '1d' solutions > solutions2"
 ##### Note: The standard errors must have been included in your blupf90 solutions through "OPTION sol se" command in blupf90.
 ##### Then, run this command:
 "./DEBV_calculator_blupf90 --s solutions2 --op Original-ped.txt --rp renadd03.ped --rt 1 --re 3 --h2 0.25 --va 18 --c 0.5 --o DEBV.txt"
