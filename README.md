@@ -6,6 +6,9 @@
 ## 1. A short description
 * The DEBV_calculator is a module for deregressing estimated breeding values (DEBV) based on two former popular methods (Garrick et al. 2009; VanRaden et al. 2009) in Linux. The source codes of this module were written in python (by employing pandas, numpy, argparse, time, and sys libraries), and bundled using pyinstaller (https://www.pyinstaller.org/).
 
+## For downloading this module use wget for:
+###### https://github.com/Siavash-cloud/DEBV_calculator/releases/download/1.00/DEBV_calculator
+###### https://github.com/Siavash-cloud/DEBV_calculator/releases/download/1.00/DEBV_calculator_blupf90
 
 ## 2. Inputs and usage
 ### 2.1. Type 1 (our defined format using DEBV_calculator)
@@ -17,6 +20,7 @@ The input header must be named exactly like this:
 | 5 | 3       | 1      |-2.25      |-3.81   |-1.83   |-2.82    |0.86        |0.58       |0.73            |0.73            |
 | 6 | 3       | 1      |-3.14      |-3.81   |-1.83   |-2.82    |0.86        |0.58       |0.48            |0.73            |
 | 7 | 4       | 5      |1.79       |-0.79   |-2.00   |-1.39    |0.69        |0.50       |0.45            |0.73            |
+
 #### 2.1.2 Usage
 "./DEBV_calculator --i /Data.txt --h2 0.25 --c 0.5 --o DEBV.txt"
 
@@ -48,6 +52,4 @@ Argument      |Description
 ## References
 ###### Garrick, D.J., Taylor, J.F., and Fernando, R.L. 2009. Deregressing estimated breeding values and weighting information for genomic regression analyses. Genetics Selection Evolution 41(1): 55.
 ###### VanRaden, P., Van Tassell, C., Wiggans, G., Sonstegard, T., Schnabel, R., Taylor, J., and Schenkel, F. 2009. Invited review: Reliability of genomic predictions for North American Holstein bulls. Journal of dairy science 92(1): 16-24.
-## For downloading this module please go to releases section or:
-###### https://github.com/Siavash-cloud/DEBV_calculator/releases/download/1.00/DEBV_calculator
-###### https://github.com/Siavash-cloud/DEBV_calculator/releases/download/1.00/DEBV_calculator_blupf90
+
