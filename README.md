@@ -6,7 +6,7 @@
 ## 1. A short description
 * The DEBV_calculator is a module for deregressing estimated breeding values (DEBV) based on two former popular methods (Garrick et al. 2009; VanRaden et al. 2009) in Linux. The source codes of this module were written in python (by employing pandas, numpy, argparse, time, and sys libraries), and bundled using pyinstaller (https://www.pyinstaller.org/).
 
-## For downloading this modules use wget command for thses links:
+## For downloading this modules use 'wget' command for these links:
 ###### https://github.com/Siavash-cloud/DEBV_calculator/releases/download/1.00/DEBV_calculator
 ###### https://github.com/Siavash-cloud/DEBV_calculator/releases/download/1.00/DEBV_calculator_blupf90
 ## For downloading this example datasets use:
